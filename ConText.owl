@@ -6,13 +6,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/pwhalen2/noble_ontologies/raw/main/ConText.owl">
-    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl"/>
+    <Prefix name="" IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/ConText.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl</Import>
+    <Import>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl</Import>
     <Declaration>
         <Class IRI="#Action"/>
     </Declaration>
