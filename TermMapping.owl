@@ -1,126 +1,126 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl"
+     xml:base="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl">
-    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl"/>
+     ontologyIRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl">
+    <Prefix name="" IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#abbreviation"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#abbreviation"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#alternateCode"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#author"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#author"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#code"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#misspelling"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#misspelling"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#preferredTerm"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#regex"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#semanticType"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#source"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#source"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#subjectiveExpression"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#subjectiveExpression"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#synonym"/>
     </Declaration>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#abbreviation</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#abbreviation</IRI>
         <Literal>A lexical variant that denotes an abbreviation or acronym related to a term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#alternateCode</IRI>
         <Literal>A concept code that is related to a term, but is not the preferred code associated with a term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#author</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#author</IRI>
         <Literal>The creator of the term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#code</IRI>
         <Literal>The unique concept code that is associated with a term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition</IRI>
         <Literal>The definition associated with a term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#misspelling</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#misspelling</IRI>
         <Literal>A lexical variant of a term that is improperly spelled.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#misspelling</IRI>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#misspelling</IRI>
         <Literal>skos:hiddenLabel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#preferredTerm</IRI>
         <Literal>A lexical variant of the term that is the preferred reference term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm</IRI>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#preferredTerm</IRI>
         <Literal>skos:prefLabel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#regex</IRI>
         <Literal>A regular expression used to locate the term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#semanticType</IRI>
         <Literal>A category that describes what semantic type the concept belongs to.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#source</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#source</IRI>
         <Literal>The source is the project, annotation schema or other reference that was used to create the concept.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#subjectiveExpression</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#subjectiveExpression</IRI>
         <Literal>A lexical variant that is related to a concept through a euphemism, indirect term, circumlocution or substitute term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym</IRI>
+        <AnnotationProperty IRI="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#definition"/>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#synonym</IRI>
         <Literal>A lexical variant related to a concept that is similar in meaning.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym</IRI>
+        <IRI>https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl#synonym</IRI>
         <Literal>skos:altLabel</Literal>
     </AnnotationAssertion>
 </Ontology>
