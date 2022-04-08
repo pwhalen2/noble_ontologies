@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl"
+     xml:base="http://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl">
-    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl"/>
+     ontologyIRI="http://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl">
+    <Prefix name="" IRI="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -74,24 +74,24 @@
         <Literal>The definition associated with a term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#misspelling</IRI>
-        <Literal>skos:hiddenLabel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>#misspelling</IRI>
         <Literal>A lexical variant of a term that is improperly spelled.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#preferredTerm</IRI>
-        <Literal>skos:prefLabel</Literal>
+        <IRI>#misspelling</IRI>
+        <Literal>skos:hiddenLabel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>#preferredTerm</IRI>
         <Literal>A lexical variant of the term that is the preferred reference term.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#preferredTerm</IRI>
+        <Literal>skos:prefLabel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
@@ -114,14 +114,14 @@
         <Literal>A lexical variant that is related to a concept through a euphemism, indirect term, circumlocution or substitute term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#synonym</IRI>
-        <Literal>skos:altLabel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>#synonym</IRI>
         <Literal>A lexical variant related to a concept that is similar in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#synonym</IRI>
+        <Literal>skos:altLabel</Literal>
     </AnnotationAssertion>
 </Ontology>
 
