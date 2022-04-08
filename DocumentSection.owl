@@ -12,6 +12,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl</Import>
     <Declaration>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/DocumentSection.owl#ABORTUS"/>
     </Declaration>
@@ -2908,16 +2909,16 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/DocumentSection.owl#XrayJointsAndBonyStructures_Section"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#abbreviation"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#source"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#abbreviation"/>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/DocumentSection.owl#ABORTUS"/>
