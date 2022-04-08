@@ -1,0 +1,926 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/pwhalen2/noble_ontologies/raw/main/ConText.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/pwhalen2/noble_ontologies/raw/main/ConText.owl">
+    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl</Import>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Because_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodySite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#But_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClockfacePosition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualAspect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualModality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeltaFlag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DimensionalMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectionOrientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dosage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthnicGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiencer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndicationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laterality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lexicon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinguisticModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaritalStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicationRoute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumericModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrdinalInterpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permanence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcedureCompletionStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcedurePreparationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PseudoModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quadrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RangeModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryTo_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialRiskQualifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temporality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Which_Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionSv"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDefaultDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMentionAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParagraphAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPseudo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSectionAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTermination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeActionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnActionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPseudoOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSvActionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTerminationOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDefaultValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#backward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bidirectional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#discontinuous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#first_mention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#forward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nearest_mention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terminate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#windowSize"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allergen"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Because_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyModifier"/>
+        <Class IRI="#Qualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodySite"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#But_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certainty"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClockfacePosition"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closure"/>
+        <Class IRI="#Lexicon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualAspect"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualModality"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Degree"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeltaFlag"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectionOrientation"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EthnicGroup"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiencer"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanName"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndicationType"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laterality"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinguisticModifier"/>
+        <Class IRI="#Modifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaritalStatus"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationRoute"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modifier"/>
+        <Class IRI="#Lexicon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericModifier"/>
+        <Class IRI="#Modifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrdinalInterpretation"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permanence"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polarity"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presentation_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcedureCompletionStatus"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcedurePreparationStatus"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudo"/>
+        <Class IRI="#Lexicon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PseudoModifier"/>
+        <Class IRI="#Pseudo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quadrant"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualifier"/>
+        <Class IRI="#Modifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Race"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeModifier"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryTo_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemanticModifier"/>
+        <Class IRI="#Modifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Severity"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialRiskQualifier"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temporality"/>
+        <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit"/>
+        <Class IRI="#Qualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Which_Group"/>
+        <Class IRI="#Closure"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Because_Group"/>
+        <Class IRI="#But_Group"/>
+        <Class IRI="#Patient_Group"/>
+        <Class IRI="#Presentation_Group"/>
+        <Class IRI="#SecondaryTo_Group"/>
+        <Class IRI="#Which_Group"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Certainty"/>
+        <Class IRI="#ContextualAspect"/>
+        <Class IRI="#ContextualModality"/>
+        <Class IRI="#Degree"/>
+        <Class IRI="#Experiencer"/>
+        <Class IRI="#Permanence"/>
+        <Class IRI="#Polarity"/>
+        <Class IRI="#Temporality"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#backward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#bidirectional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#discontinuous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#first_mention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#forward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#nearest_mention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#terminate"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActionDe"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActionEn"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActionSv"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMentionAction"/>
+        <ObjectProperty IRI="#hasAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParagraphAction"/>
+        <ObjectProperty IRI="#hasAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSectionAction"/>
+        <ObjectProperty IRI="#hasAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDeActionOf"/>
+        <ObjectProperty IRI="#isActionOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEnActionOf"/>
+        <ObjectProperty IRI="#isActionOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSvActionOf"/>
+        <ObjectProperty IRI="#isActionOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAction"/>
+        <ObjectProperty IRI="#isActionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasActionDe"/>
+        <ObjectProperty IRI="#isDeActionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasActionEn"/>
+        <ObjectProperty IRI="#isEnActionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasActionSv"/>
+        <ObjectProperty IRI="#isSvActionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPseudo"/>
+        <ObjectProperty IRI="#isPseudoOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTermination"/>
+        <ObjectProperty IRI="#isTerminationOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPseudo"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPseudoOf"/>
+        <Class IRI="#Pseudo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPseudo"/>
+        <Class IRI="#PseudoModifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPseudoOf"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isDefaultValue"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDefaultValue"/>
+        <Class IRI="#Modifier"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDefaultValue"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Action</IRI>
+        <Literal>Actions are the directions in which an NLP system should identify a modifier in relation to an identified anchor term.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Action</IRI>
+        <Literal xml:lang="en">Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Allergen</IRI>
+        <Literal xml:lang="en">Allergen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodyModifier</IRI>
+        <Literal xml:lang="en">BodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodySite</IRI>
+        <Literal xml:lang="en">BodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Certainty</IRI>
+        <Literal xml:lang="en">Certainty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Closure</IRI>
+        <Literal>Groups of terms that can terminate the scope of an NLP information extraction system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Closure</IRI>
+        <Literal xml:lang="en">Closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContextualAspect</IRI>
+        <Literal xml:lang="en">ContextualAspect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContextualModality</IRI>
+        <Literal xml:lang="en">ContextualModality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Course</IRI>
+        <Literal xml:lang="en">Course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Date</IRI>
+        <Literal>Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Degree</IRI>
+        <Literal xml:lang="en">Degree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeltaFlag</IRI>
+        <Literal xml:lang="en">DeltaFlag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DimensionalMeasurement</IRI>
+        <Literal xml:lang="en">DimensionalMeasurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dosage</IRI>
+        <Literal xml:lang="en">Dosage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EthnicGroup</IRI>
+        <Literal xml:lang="en">EthnicGroup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Experiencer</IRI>
+        <Literal xml:lang="en">Experiencer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gender</IRI>
+        <Literal xml:lang="en">Gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HumanName</IRI>
+        <Literal xml:lang="en">HumanName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Laterality</IRI>
+        <Literal xml:lang="en">Laterality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Lexicon</IRI>
+        <Literal>A set of classes that can generate a lexicon used in information extraction tools.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LinguisticModifier</IRI>
+        <Literal>Modifiers that can attach to any anchor regardless of the semantic type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LinguisticModifier</IRI>
+        <Literal xml:lang="en">LinguisticModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaritalStatus</IRI>
+        <Literal xml:lang="en">MaritalStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Modifier</IRI>
+        <Literal>Groups of terms that can modify an identified anchor term.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Modifier</IRI>
+        <Literal xml:lang="en">Modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#NumericModifier</IRI>
+        <Literal>Modifiers that define a specific numeric threshold.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumericModifier</IRI>
+        <Literal xml:lang="en">NumericModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrdinalInterpretation</IRI>
+        <Literal xml:lang="en">OrdinalInterpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Permanence</IRI>
+        <Literal xml:lang="en">Permanence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Polarity</IRI>
+        <Literal xml:lang="en">Polarity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProcedureCompletionStatus</IRI>
+        <Literal xml:lang="en">ProcedureCompletionStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProcedurePreparationStatus</IRI>
+        <Literal xml:lang="en">ProcedurePreparationStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pseudo</IRI>
+        <Literal>Terms that produce a false positive in the indentification of modifiers or anchor terms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Qualifier</IRI>
+        <Literal>Qualifier is any modifier to another modifier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Qualifier</IRI>
+        <Literal xml:lang="en">Qualifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quantity</IRI>
+        <Literal xml:lang="en">Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Race</IRI>
+        <Literal xml:lang="en">Race</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RangeModifier</IRI>
+        <Literal xml:lang="en">RangeModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ratio</IRI>
+        <Literal xml:lang="en">Ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SemanticModifier</IRI>
+        <Literal>Modifiers that can modify a specific semantic type of anchor(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SemanticModifier</IRI>
+        <Literal xml:lang="en">SemanticModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Severity</IRI>
+        <Literal xml:lang="en">Severity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Temporality</IRI>
+        <Literal xml:lang="en">Temporality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time</IRI>
+        <Literal>Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unit</IRI>
+        <Literal xml:lang="en">Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#backward</IRI>
+        <Literal xml:lang="en">backward</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bidirectional</IRI>
+        <Literal xml:lang="en">bidirectional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#discontinuous</IRI>
+        <Literal xml:lang="en">discontinuous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#forward</IRI>
+        <Literal xml:lang="en">forward</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAction</IRI>
+        <Literal xml:lang="en">hasAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasActionDe</IRI>
+        <Literal xml:lang="en">hasActionDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasActionEn</IRI>
+        <Literal xml:lang="en">hasActionEn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasActionSv</IRI>
+        <Literal xml:lang="en">hasActionSv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDefaultDefinition</IRI>
+        <Literal xml:lang="en">hasDefaultDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPseudo</IRI>
+        <Literal xml:lang="en">hasPseudo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTermination</IRI>
+        <Literal xml:lang="en">hasTermination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isActionOf</IRI>
+        <Literal xml:lang="en">isActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isDeActionOf</IRI>
+        <Literal xml:lang="en">isDeActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isDefaultValue</IRI>
+        <Literal xml:lang="en">isDefaultValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isEnActionOf</IRI>
+        <Literal xml:lang="en">isEnActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPseudoOf</IRI>
+        <Literal xml:lang="en">isPseudoOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSvActionOf</IRI>
+        <Literal xml:lang="en">isSvActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isTerminationOf</IRI>
+        <Literal xml:lang="en">isTerminationOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terminate</IRI>
+        <Literal xml:lang="en">terminate</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
