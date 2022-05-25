@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl" uri="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"/>
     <uri id="Imports Wizard Entry" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl" uri="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"/>
     <uri id="Imports Wizard Entry" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl" uri="http://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"/>
     <uri id="Imports Wizard Entry" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl" uri="https://github.com/pwhalen2/noble_ontologies/raw/main/TermMapping.owl"/>
     <uri id="Imports Wizard Entry" name="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl" uri="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1649428490946" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/DocumentSection.owl" uri="DocumentSection.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1649428490946" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl" uri="TermMapping.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1649435186734" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/DocumentSection.owl" uri="DocumentSection.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1649435186734" name="https://github.com/Blulab-Utah/resource_ontologies/raw/master/TermMapping.owl" uri="TermMapping.owl"/>
     </group>
 </catalog>
